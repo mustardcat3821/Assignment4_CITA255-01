@@ -31021,11 +31021,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\isaia\\Downloads\\QuestLog\\QuestLog\\QuestLog.csproj",
+      "projectUniqueName": "C:\\Users\\isaia\\Desktop\\App Development CITA255-01\\Assignment4_CITA255-01\\QuestLog_CITA255-01\\QuestLog\\QuestLog.csproj",
       "projectName": "QuestLog",
-      "projectPath": "C:\\Users\\isaia\\Downloads\\QuestLog\\QuestLog\\QuestLog.csproj",
+      "projectPath": "C:\\Users\\isaia\\Desktop\\App Development CITA255-01\\Assignment4_CITA255-01\\QuestLog_CITA255-01\\QuestLog\\QuestLog.csproj",
       "packagesPath": "C:\\Users\\isaia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\isaia\\Downloads\\QuestLog\\QuestLog\\obj\\",
+      "outputPath": "C:\\Users\\isaia\\Desktop\\App Development CITA255-01\\Assignment4_CITA255-01\\QuestLog_CITA255-01\\QuestLog\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

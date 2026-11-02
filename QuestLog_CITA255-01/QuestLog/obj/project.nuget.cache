@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R9dKSMB3W2A=",
+  "dgSpecHash": "FmppklIh58k=",
   "success": true,
-  "projectFilePath": "C:\\Users\\isaia\\Downloads\\QuestLog\\QuestLog\\QuestLog.csproj",
+  "projectFilePath": "C:\\Users\\isaia\\Desktop\\App Development CITA255-01\\Assignment4_CITA255-01\\QuestLog_CITA255-01\\QuestLog\\QuestLog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\isaia\\.nuget\\packages\\googlegson\\2.13.1.1\\googlegson.2.13.1.1.nupkg.sha512",
     "C:\\Users\\isaia\\.nuget\\packages\\microsoft.extensions.configuration\\10.0.0\\microsoft.extensions.configuration.10.0.0.nupkg.sha512",

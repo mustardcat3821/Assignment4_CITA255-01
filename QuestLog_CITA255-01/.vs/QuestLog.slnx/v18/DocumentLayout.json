@@ -1,12 +1,71 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\isaia\\Downloads\\QuestLog\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\isaia\\Desktop\\App Development CITA255-01\\Assignment4_CITA255-01\\QuestLog_CITA255-01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4FE47749-978E-B27A-1A43-D4D815F55535}|QuestLog\\QuestLog.csproj|c:\\users\\isaia\\desktop\\app development cita255-01\\assignment4_cita255-01\\questlog_cita255-01\\questlog\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4FE47749-978E-B27A-1A43-D4D815F55535}|QuestLog\\QuestLog.csproj|solutionrelative:questlog\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FE47749-978E-B27A-1A43-D4D815F55535}|QuestLog\\QuestLog.csproj|c:\\users\\isaia\\desktop\\app development cita255-01\\assignment4_cita255-01\\questlog_cita255-01\\questlog\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FE47749-978E-B27A-1A43-D4D815F55535}|QuestLog\\QuestLog.csproj|solutionrelative:questlog\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FE47749-978E-B27A-1A43-D4D815F55535}|QuestLog\\QuestLog.csproj|c:\\users\\isaia\\desktop\\app development cita255-01\\assignment4_cita255-01\\questlog_cita255-01\\questlog\\quest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FE47749-978E-B27A-1A43-D4D815F55535}|QuestLog\\QuestLog.csproj|solutionrelative:questlog\\quest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\isaia\\Desktop\\App Development CITA255-01\\Assignment4_CITA255-01\\QuestLog_CITA255-01\\QuestLog\\MainPage.xaml",
+              "RelativeDocumentMoniker": "QuestLog\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\isaia\\Desktop\\App Development CITA255-01\\Assignment4_CITA255-01\\QuestLog_CITA255-01\\QuestLog\\MainPage.xaml",
+              "RelativeToolTip": "QuestLog\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-02T20:14:10.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\isaia\\Desktop\\App Development CITA255-01\\Assignment4_CITA255-01\\QuestLog_CITA255-01\\QuestLog\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "QuestLog\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\isaia\\Desktop\\App Development CITA255-01\\Assignment4_CITA255-01\\QuestLog_CITA255-01\\QuestLog\\MainPage.xaml.cs",
+              "RelativeToolTip": "QuestLog\\MainPage.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T20:16:20.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Quest.cs",
+              "DocumentMoniker": "C:\\Users\\isaia\\Desktop\\App Development CITA255-01\\Assignment4_CITA255-01\\QuestLog_CITA255-01\\QuestLog\\Quest.cs",
+              "RelativeDocumentMoniker": "QuestLog\\Quest.cs",
+              "ToolTip": "C:\\Users\\isaia\\Desktop\\App Development CITA255-01\\Assignment4_CITA255-01\\QuestLog_CITA255-01\\QuestLog\\Quest.cs",
+              "RelativeToolTip": "QuestLog\\Quest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T20:15:03.214Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -4,53 +4,63 @@
              x:Class="QuestLog.MainPage"
              Title="Quest Log">
 
-    <Grid RowDefinitions="Auto,Auto,*,Auto"
-          Padding="24"
-          RowSpacing="14">
+    <Grid RowDefinitions="Auto,*,Auto"
+          Padding="20"
+          RowSpacing="10">
 
         <Label Grid.Row="0"
                Text="Quest Log"
-               FontSize="30"
+               FontSize="26"
                FontAttributes="Bold" />
 
-        <Label Grid.Row="1"
-               x:Name="CountLabel"
-               Text="0 quests"
-               FontSize="14"
-               TextColor="Gray" />
+        <CollectionView Grid.Row="1"
+                        x:Name="QuestView"
+                        ItemsSource="{Binding Quests}"
+                        SelectionMode="Single">
 
-        <Border Grid.Row="2" Stroke="LightGray" StrokeThickness="1" Padding="4">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <VerticalStackLayout Padding="10" Spacing="5">
 
-            <!-- =================================================================
-                 TODO 4
+                        <Label Text="{Binding Title}"
+                               FontSize="18"
+                               FontAttributes="Bold" />
 
-                 Add the attribute to the CollectionView below:
+                        <Label Text="{Binding Giver}"
+                               FontSize="14"
+                               TextColor="Gray" />
 
-                 "Quests" is a STRING here. The compiler never checks it, so a
-                 typo gives you an empty list and no error at all. It has to
-                 match the property name in the code-behind exactly.
-                 ================================================================= -->
-            <CollectionView x:Name="QuestView">
+                        <Label Text="{Binding Reward, StringFormat='Reward: {0}'}"
+                               FontSize="14" />
 
-                <CollectionView.ItemTemplate>
-                    <DataTemplate>
-                        <!-- {Binding .} means "the whole item" - here, the string itself. -->
-                        <Label Text="{Binding .}" FontSize="16" Padding="12,10" />
-                    </DataTemplate>
-                </CollectionView.ItemTemplate>
+                    </VerticalStackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
 
-                <CollectionView.EmptyView>
-                    <Label Text="No quests yet."
-                           FontSize="16" TextColor="Gray"
-                           HorizontalOptions="Center" VerticalOptions="Center" />
-                </CollectionView.EmptyView>
+        </CollectionView>
 
-            </CollectionView>
-        </Border>
+        <VerticalStackLayout Grid.Row="2" Spacing="10">
 
-        <Button Grid.Row="3"
-                Text="Accept a quest"
-                Clicked="OnAddClicked" />
+            <Entry x:Name="TitleEntry"
+                   Placeholder="Quest Title" />
+
+            <Entry x:Name="GiverEntry"
+                   Placeholder="Quest Giver" />
+
+            <Entry x:Name="RewardEntry"
+                   Placeholder="Reward"
+                   Keyboard="Numeric" />
+
+            <Button Text="Add Quest"
+                    Clicked="OnAddClicked" />
+
+            <Button Text="Remove Selected Quest"
+                    Clicked="OnRemoveClicked" />
+
+            <Button Text="Clear Quests"
+                    Clicked="OnClearClicked" />
+
+        </VerticalStackLayout>
 
     </Grid>
 </ContentPage>
