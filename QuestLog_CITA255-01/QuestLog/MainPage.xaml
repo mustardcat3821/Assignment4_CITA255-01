@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QuestLog.MainPage"
+             Title="Quest Log">
+
+    <Grid RowDefinitions="Auto,Auto,*,Auto"
+          Padding="24"
+          RowSpacing="14">
+
+        <Label Grid.Row="0"
+               Text="Quest Log"
+               FontSize="30"
+               FontAttributes="Bold" />
+
+        <Label Grid.Row="1"
+               x:Name="CountLabel"
+               Text="0 quests"
+               FontSize="14"
+               TextColor="Gray" />
+
+        <Border Grid.Row="2" Stroke="LightGray" StrokeThickness="1" Padding="4">
+
+            <!-- =================================================================
+                 TODO 4
+
+                 Add the attribute to the CollectionView below:
+
+                 "Quests" is a STRING here. The compiler never checks it, so a
+                 typo gives you an empty list and no error at all. It has to
+                 match the property name in the code-behind exactly.
+                 ================================================================= -->
+            <CollectionView x:Name="QuestView">
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <!-- {Binding .} means "the whole item" - here, the string itself. -->
+                        <Label Text="{Binding .}" FontSize="16" Padding="12,10" />
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+
+                <CollectionView.EmptyView>
+                    <Label Text="No quests yet."
+                           FontSize="16" TextColor="Gray"
+                           HorizontalOptions="Center" VerticalOptions="Center" />
+                </CollectionView.EmptyView>
+
+            </CollectionView>
+        </Border>
+
+        <Button Grid.Row="3"
+                Text="Accept a quest"
+                Clicked="OnAddClicked" />
+
+    </Grid>
+</ContentPage>
